@@ -8,7 +8,13 @@ A simple, lightweight, and customizable shell script to display real-time CPU co
 
 ## Preview
 
-*A preview of the monitor in action on an XFCE panel.*
+2 CPU in a row, **with** core number and max frequency displayed:
+
+<img width="539" height="83" src="https://github.com/user-attachments/assets/3e11d18b-281c-4f8c-b52d-b74f9b15db79" />
+
+2 CPU in a row, **without** core number and max frequency displayed:
+
+<img width="428" height="66" src="https://github.com/user-attachments/assets/e7d4c6ea-e1f0-4d3f-b857-d40f0c36c861" />
 
 ---
 
