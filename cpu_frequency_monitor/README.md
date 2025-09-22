@@ -4,8 +4,6 @@
 
 A simple, lightweight, and customizable shell script to display real-time CPU core frequencies on your XFCE panel using the Generic Monitor applet.
 
----
-
 ## Preview
 
 2 CPU in a row, **with** core number and max frequency displayed:
@@ -16,8 +14,6 @@ A simple, lightweight, and customizable shell script to display real-time CPU co
 
 <img width="428" height="66" src="https://github.com/user-attachments/assets/e7d4c6ea-e1f0-4d3f-b857-d40f0c36c861" />
 
----
-
 ## Prerequisites
 
 Before you begin, ensure you have the following:
@@ -25,8 +21,6 @@ Before you begin, ensure you have the following:
 - A Linux system where CPU frequency information is available in `/sys/devices/system/cpu/`.
 - **XFCE Desktop Environment**.
 - The **Generic Monitor (genmon)** applet. If you don't have it, you can usually install it through your distribution's package manager (e.g., `sudo apt-get install xfce4-genmon-plugin`).
-
----
 
 ## Installation & Usage
 
@@ -50,14 +44,12 @@ Setting up the monitor is straightforward. Follow these steps:
     - Set the **Period (s)** to your desired refresh rate (e.g., `2` seconds).
     - Close the properties window. The monitor will now display your CPU frequencies.
 
----
-
 ## Configuration
 
 You can customize the script's output by editing the configuration variables at the top of the `cpu_frequency_monitor.sh` file.
 
 ```sh
-# --- CONFIGURATION ---
+#  CONFIGURATION 
 
 # CPUS_PER_ROW: Number of CPU cores to display per line.
 CPUS_PER_ROW=2
@@ -73,13 +65,9 @@ SHOW_MAX_FREQ=true
 - `SHOW_CPU_NUM`: A boolean (`true` or `false`) that toggles the display of the CPU core number and its following colon.
 - `SHOW_MAX_FREQ`: A boolean (`true` or `false`) that toggles the display of the maximum possible frequency for each core.
 
----
-
 ## Contributing
 
 Contributions are welcome! If you have an idea for an improvement or have found a bug, please feel free to open an issue or submit a pull request.
-
----
 
 ## License
 
