@@ -24,20 +24,27 @@ This script helps audiophiles maintain a bit-perfect audio chain by providing a 
 
 Here are the possible outputs you will see in the XFCE panel. Detailed logs for each status can be found in the tooltip of the applet.
 
-- **`N/A`**: The target audio device was not found.
-  - The panel will display: <span style="color:White;">N/A</span>
-- **`Idle`**: No active audio source is detected.
-  - The panel will display: <span style="color:White;">Idle</span>
-- **`48000`**: An active source is playing at 48000 Hz, and the device is set to the same rate.
-  - The panel will display: <span style="color:White;">48000</span>
-- **`Freq Err`**: The source and device sample rates do not match.
-  - The panel will display: <span style="color:Red;">Freq Err</span>
-- **`Vol Err`**: The volume of either the source or the device is not at 100%.
-  - The panel will display: <span style="color:Red;">Vol Err</span>
-- **`Src Err`**: More than one audio source is active, making it impossible to guarantee a bit-perfect stream.
-  - The panel will display: <span style="color:Red;">Src Err</span>
-- **`Err`**: A script error occurred, likely related to `pw-dump`.
-  - The panel will display: <span style="color:Red;">Err</span>
+- **`N/A`**: The target audio device was not found:
+<img width="650" height="120" alt="image" src="https://github.com/user-attachments/assets/bd5c6fea-6d49-4aaf-823a-969326751b5d" />
+
+- **`Idle`**: No active audio source is detected:
+<img width="650" height="175" alt="image" src="https://github.com/user-attachments/assets/c84ff7c8-ccfa-46d1-b0a4-38938e40f628" />
+
+- **`48000`**: An active source is playing at 48000 Hz, and the device is set to the same rate:
+<img width="650" height="209" alt="image" src="https://github.com/user-attachments/assets/ded6307a-8480-4929-b874-38bc51eafa74" />
+
+- **`Freq Err`**: The source and device sample rates do not match:
+<img width="650" height="230" alt="image" src="https://github.com/user-attachments/assets/407263fc-6e32-40bf-8e56-a930b5731ffe" />
+
+- **`Vol Err`**: The volume of either the source or the device is not at 100%:
+<img width="650" height="206" alt="image" src="https://github.com/user-attachments/assets/da3ef0dd-5633-43a6-bdcb-d3e671b32c40" />
+
+- **`Src Err`**: More than one audio source is active, making it impossible to guarantee a bit-perfect stream:
+<img width="650" height="179" alt="image" src="https://github.com/user-attachments/assets/a987542a-e019-40ec-966a-c0fdc0c1868c" />
+
+- **`Err`**: A script error occurred, likely related to `pw-dump`:
+<img width="650" height="102" alt="image" src="https://github.com/user-attachments/assets/f22c345c-9453-46b8-bdec-444a067a2e70" />
+
 
 ## Usage with XFCE Generic Monitor
 
